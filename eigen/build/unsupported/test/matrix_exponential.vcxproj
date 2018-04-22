@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1F510525-A578-3E77-B8CC-C2CFC90A104F}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>matrix_exponential</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\unsupported\test;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\unsupported\test;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\unsupported\test\..\..\test;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\unsupported\test\..\..\unsupported;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\unsupported\test\..\..\Eigen;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\unsupported\test;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\unsupported\test;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\unsupported\test\..\..\test;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\unsupported\test\..\..\unsupported;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\unsupported\test\..\..\Eigen;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\unsupported\test;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\unsupported\test;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\unsupported\test\..\..\test;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\unsupported\test\..\..\unsupported;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\unsupported\test\..\..\Eigen;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\unsupported\test;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\unsupported\test;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\unsupported\test\..\..\test;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\unsupported\test\..\..\unsupported;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\unsupported\test\..\..\Eigen;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\unsupported\test\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8 -BC:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/build --check-stamp-file C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/build/unsupported/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/unsupported/test/CMakeLists.txt;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\unsupported\test\CMakeLists.txt;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindGoogleHash.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindAdolc.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindMPFR.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindGMP.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindFFTW.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindGLEW.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\unsupported\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8 -BC:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/build --check-stamp-file C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/build/unsupported/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/unsupported/test/CMakeLists.txt;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\unsupported\test\CMakeLists.txt;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindGoogleHash.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindAdolc.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindMPFR.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindGMP.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindFFTW.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindGLEW.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\unsupported\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8 -BC:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/build --check-stamp-file C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/build/unsupported/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/unsupported/test/CMakeLists.txt;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\unsupported\test\CMakeLists.txt;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindGoogleHash.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindAdolc.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindMPFR.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindGMP.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindFFTW.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindGLEW.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\unsupported\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8 -BC:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/build --check-stamp-file C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/build/unsupported/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/unsupported/test/CMakeLists.txt;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\unsupported\test\CMakeLists.txt;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindGoogleHash.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindAdolc.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindMPFR.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindGMP.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindFFTW.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindGLEW.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\unsupported\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\ZERO_CHECK.vcxproj">
+      <Project>{61F14F92-36E4-326D-9F84-5678F2B8B645}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\unsupported\test\matrix_exponential_1.vcxproj">
+      <Project>{9A45DAEC-A731-37A9-B2C7-33D3449DC208}</Project>
+      <Name>matrix_exponential_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\unsupported\test\matrix_exponential_2.vcxproj">
+      <Project>{2425326D-4EEA-3B08-A111-02BA03F958AE}</Project>
+      <Name>matrix_exponential_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\unsupported\test\matrix_exponential_3.vcxproj">
+      <Project>{30271D94-4251-3355-BA35-E56A1D1D0534}</Project>
+      <Name>matrix_exponential_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\unsupported\test\matrix_exponential_4.vcxproj">
+      <Project>{19CAC357-1371-33D2-B292-CFC441F57D19}</Project>
+      <Name>matrix_exponential_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\unsupported\test\matrix_exponential_5.vcxproj">
+      <Project>{6FC8D0CD-925A-3741-BCC7-F63779D137F9}</Project>
+      <Name>matrix_exponential_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\unsupported\test\matrix_exponential_6.vcxproj">
+      <Project>{585A7BFD-735B-351C-A454-684C5E3705CB}</Project>
+      <Name>matrix_exponential_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\unsupported\test\matrix_exponential_7.vcxproj">
+      <Project>{EF53D1C8-7E67-3D70-87D4-4E12AC6ABE56}</Project>
+      <Name>matrix_exponential_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\unsupported\test\matrix_exponential_8.vcxproj">
+      <Project>{688D83C1-93BD-3961-BA5B-720753BE9B92}</Project>
+      <Name>matrix_exponential_8</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\unsupported\test\matrix_exponential_9.vcxproj">
+      <Project>{FF03F50A-E14D-3BC4-A4D6-0429F2E6E2C1}</Project>
+      <Name>matrix_exponential_9</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

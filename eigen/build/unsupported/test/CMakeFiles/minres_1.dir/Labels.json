@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/unsupported/test/minres.cpp"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/unsupported/test/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildUnsupported"
+		],
+		"name" : "minres_1"
+	}
+}

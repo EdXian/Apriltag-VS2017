@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{10535AAA-7DAD-3A53-8AFC-F190E68C7ED1}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>householder</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\test;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\test;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\test;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\test;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\test;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\test;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\test;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\test;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\test\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8 -BC:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/build --check-stamp-file C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/test/CMakeLists.txt;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\test\CMakeLists.txt;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindCholmod.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindUmfpack.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindSuperLU.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindPastix.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindScotch.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindMetis.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindSPQR.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindQt4.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\MacroAddFileDependencies.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakePushCheckState.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8 -BC:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/build --check-stamp-file C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/test/CMakeLists.txt;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\test\CMakeLists.txt;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindCholmod.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindUmfpack.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindSuperLU.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindPastix.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindScotch.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindMetis.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindSPQR.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindQt4.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\MacroAddFileDependencies.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakePushCheckState.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8 -BC:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/build --check-stamp-file C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/test/CMakeLists.txt;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\test\CMakeLists.txt;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindCholmod.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindUmfpack.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindSuperLU.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindPastix.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindScotch.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindMetis.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindSPQR.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindQt4.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\MacroAddFileDependencies.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakePushCheckState.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8 -BC:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/build --check-stamp-file C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/test/CMakeLists.txt;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\test\CMakeLists.txt;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindCholmod.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindUmfpack.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindSuperLU.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindPastix.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindScotch.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindMetis.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\cmake\FindSPQR.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindQt4.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\MacroAddFileDependencies.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakePushCheckState.cmake;C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\ZERO_CHECK.vcxproj">
+      <Project>{61F14F92-36E4-326D-9F84-5678F2B8B645}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\test\householder_1.vcxproj">
+      <Project>{B8FC42D7-912D-3F8A-AE3D-D84A41DFE6E2}</Project>
+      <Name>householder_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\test\householder_2.vcxproj">
+      <Project>{5AD498A6-537A-3616-82E1-2196793F099C}</Project>
+      <Name>householder_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\test\householder_3.vcxproj">
+      <Project>{3BFF02C8-D88C-3AB8-9A76-4028359D74A8}</Project>
+      <Name>householder_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\test\householder_4.vcxproj">
+      <Project>{B2266F7D-5CA1-3D69-8C37-C5EB9670FA87}</Project>
+      <Name>householder_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\test\householder_5.vcxproj">
+      <Project>{56D9AB5F-3E30-320E-A300-7DF348DD9EBB}</Project>
+      <Name>householder_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\test\householder_6.vcxproj">
+      <Project>{546C72DA-1E1A-3940-A6B3-A9CFBB7BA003}</Project>
+      <Name>householder_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\test\householder_7.vcxproj">
+      <Project>{AF4D2E96-D696-3591-971F-BBACBB50FCF2}</Project>
+      <Name>householder_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\USER\Desktop\eigen-eigen-b9cd8366d4e8\eigen-eigen-b9cd8366d4e8\build\test\householder_8.vcxproj">
+      <Project>{DBB62AAF-50CD-3156-9BA5-7EE5691557C9}</Project>
+      <Name>householder_8</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

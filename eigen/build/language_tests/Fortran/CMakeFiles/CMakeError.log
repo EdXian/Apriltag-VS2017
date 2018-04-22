@@ -1,0 +1,164 @@
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+1
+
+Microsoft Visual Studio 2017 版本 15.0.27428.2037。
+Copyright (C) Microsoft Corp. 著作權所有，並保留一切權利。
+
+Visual Studio 的授權將於 29 天內到期。
+
+系統找不到指定的檔案。
+作業無法完成。參數錯誤。 
+
+使用: 
+devenv  [solutionfile | projectfile | anyfile.ext]  [switches]
+
+devenv 的第一個引數通常是方案檔或專案檔。
+如果您想要讓檔案在編輯器中自動開啟，您也可以使用任何其他檔案做為
+第一個引數。當您輸入一個專案檔時，IDE
+會在專案檔的父目錄中尋找與專案檔
+主檔名相同的 .sln 檔案。如果找不到.sln 檔案存在，
+IDE 就會尋找參考該專案的單一 .sln 檔案。如果找不到單一的
+.sln 檔案，IDE 便會建立一個未儲存的方案，並以與專案檔
+相同的主檔名做為預設的 .sln 檔名。
+
+命令列組建: 
+devenv solutionfile.sln /build [ solutionconfig ] [ /project projectnameorfile [ /projectconfig name ] ]
+可用的命令列參數: 
+
+/Build		以指定的方案組態建置方案或
+		專案。例如 "Debug"。如果可能用於
+		多重平台，組態名稱必須以引號括住
+		並包含平台名稱。例如: "Debug|Win32"。
+/Clean		刪除組建輸出。
+/Command	啟動 IDE 並執行命令。
+/Deploy		建置並部署指定的組建組態。
+/Edit		在這個應用程式正在執行的執行個體中開啟
+		指定的檔案。如果沒有執行個體正在執行，
+		則會以簡易視窗配置啟動新的執行個體。
+/LCID		在 IDE 中設定 UI 的預設語言。
+/Log		將 IDE 活動記錄至指定的檔案，以進行疑難排解。
+/NoVSIP		停用 VSIP 程式開發人員用來進行 VSIP 測試的授權金鑰。
+/Out		附加建置記錄至指定的檔案。
+/Project	指定要建置、清除或部署的專案。
+		必須搭配 /Build、/Rebuild、/Clean 或 /Deploy 使用。
+/ProjectConfig	覆寫方案組態中指定的專案
+		組態。例如 "Debug"。如果可能用於
+		多重平台，組態名稱必須以引號括住
+		並包含平台名稱。例如: "Debug|Win32"。
+		必須搭配 /Project 使用。
+/Rebuild	清除後，再以指定的組態建置
+		方案或專案。
+/ResetSettings	還原 IDE 的預設值，選擇性的重設為
+		指定的 VSSettings 檔。
+/ResetSkipPkgs	清除所有加入至 VSPackages 的 SkipLoading 標記。
+/Run		編譯並執行指定的方案。
+/RunExit	編譯並執行指定的方案，然後關閉 IDE。
+/SafeMode	在安全模式中啟動 IDE 並載入最少的視窗。
+/Upgrade	升級專案，或升級方案以及其中的所有專案。
+		將視需要建立這些檔案的備份。如需備份程序
+		的詳細資訊，請參閱有關 [Visual Studio 轉換精靈] 
+		的說明。
+
+特定產品的參數: 
+
+/debugexe	開啟要偵錯的指定可執行檔。此命令列的其餘部分
+		會傳遞到這個可執行檔當做它的引數。
+/diff		比較兩個檔案。接受四個參數: 
+		SourceFile、TargetFile、SourceDisplayName (選擇性)、
+		TargetDisplayName (選擇性)
+/TfsLink	開啟 Team Explorer 並為提供的成品 URI (如果已註冊)
+		啟動檢視器。
+/useenv		使用 PATH、INCLUDE、LIBPATH 和 LIB 環境變數
+		來代替 VC++ 建置的 IDE 路徑。
+
+若要從命令列附加偵錯工具，請使用下列指令: 
+	VsJITDebugger.exe -p <pid>
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+1
+
+Microsoft Visual Studio 2017 版本 15.0.27428.2037。
+Copyright (C) Microsoft Corp. 著作權所有，並保留一切權利。
+
+Visual Studio 的授權將於 29 天內到期。
+
+系統找不到指定的檔案。
+作業無法完成。參數錯誤。 
+
+使用: 
+devenv  [solutionfile | projectfile | anyfile.ext]  [switches]
+
+devenv 的第一個引數通常是方案檔或專案檔。
+如果您想要讓檔案在編輯器中自動開啟，您也可以使用任何其他檔案做為
+第一個引數。當您輸入一個專案檔時，IDE
+會在專案檔的父目錄中尋找與專案檔
+主檔名相同的 .sln 檔案。如果找不到.sln 檔案存在，
+IDE 就會尋找參考該專案的單一 .sln 檔案。如果找不到單一的
+.sln 檔案，IDE 便會建立一個未儲存的方案，並以與專案檔
+相同的主檔名做為預設的 .sln 檔名。
+
+命令列組建: 
+devenv solutionfile.sln /build [ solutionconfig ] [ /project projectnameorfile [ /projectconfig name ] ]
+可用的命令列參數: 
+
+/Build		以指定的方案組態建置方案或
+		專案。例如 "Debug"。如果可能用於
+		多重平台，組態名稱必須以引號括住
+		並包含平台名稱。例如: "Debug|Win32"。
+/Clean		刪除組建輸出。
+/Command	啟動 IDE 並執行命令。
+/Deploy		建置並部署指定的組建組態。
+/Edit		在這個應用程式正在執行的執行個體中開啟
+		指定的檔案。如果沒有執行個體正在執行，
+		則會以簡易視窗配置啟動新的執行個體。
+/LCID		在 IDE 中設定 UI 的預設語言。
+/Log		將 IDE 活動記錄至指定的檔案，以進行疑難排解。
+/NoVSIP		停用 VSIP 程式開發人員用來進行 VSIP 測試的授權金鑰。
+/Out		附加建置記錄至指定的檔案。
+/Project	指定要建置、清除或部署的專案。
+		必須搭配 /Build、/Rebuild、/Clean 或 /Deploy 使用。
+/ProjectConfig	覆寫方案組態中指定的專案
+		組態。例如 "Debug"。如果可能用於
+		多重平台，組態名稱必須以引號括住
+		並包含平台名稱。例如: "Debug|Win32"。
+		必須搭配 /Project 使用。
+/Rebuild	清除後，再以指定的組態建置
+		方案或專案。
+/ResetSettings	還原 IDE 的預設值，選擇性的重設為
+		指定的 VSSettings 檔。
+/ResetSkipPkgs	清除所有加入至 VSPackages 的 SkipLoading 標記。
+/Run		編譯並執行指定的方案。
+/RunExit	編譯並執行指定的方案，然後關閉 IDE。
+/SafeMode	在安全模式中啟動 IDE 並載入最少的視窗。
+/Upgrade	升級專案，或升級方案以及其中的所有專案。
+		將視需要建立這些檔案的備份。如需備份程序
+		的詳細資訊，請參閱有關 [Visual Studio 轉換精靈] 
+		的說明。
+
+特定產品的參數: 
+
+/debugexe	開啟要偵錯的指定可執行檔。此命令列的其餘部分
+		會傳遞到這個可執行檔當做它的引數。
+/diff		比較兩個檔案。接受四個參數: 
+		SourceFile、TargetFile、SourceDisplayName (選擇性)、
+		TargetDisplayName (選擇性)
+/TfsLink	開啟 Team Explorer 並為提供的成品 URI (如果已註冊)
+		啟動檢視器。
+/useenv		使用 PATH、INCLUDE、LIBPATH 和 LIB 環境變數
+		來代替 VC++ 建置的 IDE 路徑。
+
+若要從命令列附加偵錯工具，請使用下列指令: 
+	VsJITDebugger.exe -p <pid>
+
+

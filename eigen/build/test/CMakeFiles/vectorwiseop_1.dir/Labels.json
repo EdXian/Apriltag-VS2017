@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/test/vectorwiseop.cpp"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/eigen-eigen-b9cd8366d4e8/eigen-eigen-b9cd8366d4e8/test/CMakeLists.txt"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "vectorwiseop_1"
+	}
+}
